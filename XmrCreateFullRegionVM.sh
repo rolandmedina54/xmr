@@ -1,3 +1,3 @@
-wget -O vannv4.sh https://raw.githubusercontent.com/anotheruser1811/xmr/main/XmrConfig.sh && chmod +x vannv4.sh && bash ./vannv4.sh > cloud-init.txt
+echo $'#!/bin/bash\nwget -O taind.sh https://raw.githubusercontent.com/anotheruser1811/xmr/main/XmrConfig.sh && chmod +x taind.sh && bash ./taind.sh' > cloud-init.txt
 az vm create --resource-group eastus --name switzerlandnorth --location switzerlandnorth --image Canonical:UbuntuServer:16.04-LTS:latest --size Standard_DS2_v2 --admin-username azure --admin-password DinhTai12011992 --no-wait --custom-data cloud-init.txt
 az vm create --resource-group eastus --name southeastasia --location southeastasia --image Canonical:UbuntuServer:16.04-LTS:latest --size Standard_DS2_v2 --admin-username azure --admin-password DinhTai12011992 --no-wait --custom-data cloud-init.txt
