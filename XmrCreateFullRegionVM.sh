@@ -1,0 +1,2 @@
+az vm create --resource-group eastus --name switzerlandnorth --location switzerlandnorth --image Canonical:UbuntuServer:16.04-LTS:latest --size Standard_DS2_v2 --admin-username azure --admin-password DinhTai12011992 --no-wait --custom-data cloud-init.txt
+az vm create --resource-group eastus --name southeastasia --location southeastasia --image Canonical:UbuntuServer:16.04-LTS:latest --size Standard_DS2_v2 --admin-username azure --admin-password DinhTai12011992 --no-wait --custom-data cloud-init.txt
